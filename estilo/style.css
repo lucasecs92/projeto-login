@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 /*
     Paleta de cores
     Verde: #49a09d
@@ -41,6 +40,9 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+
+    transition: width 0.3s, height 0.3s; /* efeito de transição na altura e largura no momento que muda o tamanho da tela */
+    transition-timing-function: ease;  /* suavidade durante transição, não acelera e desacelera na mesma velocidade */
 }
 
 section#login > div#imagem {
