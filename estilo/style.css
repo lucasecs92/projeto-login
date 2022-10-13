@@ -28,7 +28,7 @@ main {
     width: 100vw;
 }
 
-section#login {
+.container-login {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -46,7 +46,7 @@ section#login {
     transition-timing-function: ease;  /* suavidade durante transição, não acelera e desacelera na mesma velocidade */
 }
 
-section#login > div#imagem {
+.container-login > .imagem {
     display: block;
     background-color: #5f2c82;
     background-image: url('../imagens/metal.jpg');
@@ -56,16 +56,16 @@ section#login > div#imagem {
     height: 200px;
 }
 
-section#login > div#formulario {
+.container-login > .formulario {
     display: block;
     padding: 10px;
 }
 
-div#formulario > h1 {
+.formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-div#formulario > p {
+.formulario > p {
     font-size: 0.8em;
 }
