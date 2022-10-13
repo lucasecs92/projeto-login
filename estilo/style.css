@@ -69,3 +69,8 @@ main {
 .formulario > p {
     font-size: 0.8em;
 }
+
+/* BOTÃO */
+.btn {
+    display: block;
+}
