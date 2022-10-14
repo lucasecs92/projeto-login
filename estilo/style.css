@@ -71,6 +71,11 @@ main {
     font-size: 0.8em;
 }
 /* CAMPOS */
+
+form {
+    margin-top: 10px;
+}
+
 .campo {
     background-color: #5f2c82;
     border: 3px solid #5f2c82;

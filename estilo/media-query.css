@@ -21,6 +21,11 @@
         float: right;
         width: 70%;
     }
+
+    form {
+        margin-top: 0px;
+    }
+    
 }
 
 @media screen and (min-width: 992px) {
