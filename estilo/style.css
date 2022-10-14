@@ -72,14 +72,44 @@ main {
 /* CAMPOS */
 .campo {
     background-color: #5f2c82;
-    color: #49a09d;
+    border: 3px solid #5f2c82;
+    color: white;
     height: 2.5rem;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
+    
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px 5px 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .campo > label {
     display: none;
+}
+
+.campo > input {
+    background-color: #94cfcd;
+    border: 0px;
+    border-radius: 7px;
+    padding: 10px;
+    width: 100%;
+    height: calc(100% + 10px);
+    /*
+    ou
+    padding: 11.8px;
+    width: 100%;
+    */ 
+}
+
+.campo > input:focus {
+    background-color: white;
+}
+
+.material-icons {
+    padding-right: 5px;
+    font-size: 2em;
 }
 
 /* BOTÕES */
@@ -92,7 +122,7 @@ input[type=submit] {
     background-color: #49a09d;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
     margin: 5px 0px;
 }
@@ -101,19 +131,6 @@ input[type=submit]:hover {
     background-color: #2c615f;
 }
 
-/*
-.btn {
-    display: block;
-    width: 100%;
-    height: 2.5rem;
-    background-color: #69e4e0;
-    color: #2c615f;
-    text-align: center;
-    font-size: 1em;
-    text-decoration: none;
-    border-radius: 5px;
-}
-*/
 .btn {
     display: flex;
     justify-content: center;
@@ -125,12 +142,12 @@ input[type=submit]:hover {
     color: #2c615f;
     font-size: 1em;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 1px solid #49a09d;
 }
 
 .btn:hover {
-    background-color: #6cd3cf;
+    background-color: #94cfcd;
 }
 
 .btn > span {
