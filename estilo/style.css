@@ -32,7 +32,6 @@ main {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
 
     background-color: white;
     height: 515px;
@@ -42,18 +41,19 @@ main {
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s; /* efeito de transição na altura e largura no momento que muda o tamanho da tela */
     transition-timing-function: ease;  /* suavidade durante transição, não acelera e desacelera na mesma velocidade */
 }
 
 .container-login > .imagem {
     display: block;
+    height: 200px;
     background-color: #5f2c82;
     background-image: url('../imagens/metal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left bottom;
-    height: 200px;
 }
 
 .container-login > .formulario {
@@ -106,6 +106,7 @@ form {
     ou
     padding: 11.8px;
     width: 100%;
+    sem o height
     */ 
 }
 
